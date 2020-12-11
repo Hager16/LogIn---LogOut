@@ -56,15 +56,55 @@
 		E83F1C6B25839F6600551E00 /* LogIn - LogOut */ = {
 			isa = PBXGroup;
 			children = (
-				E83F1C6C25839F6600551E00 /* AppDelegate.swift */,
-				E83F1C6E25839F6600551E00 /* SceneDelegate.swift */,
-				E83F1C7025839F6600551E00 /* ViewController.swift */,
-				E83F1C7225839F6600551E00 /* Main.storyboard */,
-				E83F1C7525839F6800551E00 /* Assets.xcassets */,
-				E83F1C7725839F6800551E00 /* LaunchScreen.storyboard */,
-				E83F1C7A25839F6800551E00 /* Info.plist */,
+				E83F1C822583A30400551E00 /* StoryBoards */,
+				E83F1C862583A77300551E00 /* ViewControllers */,
+				E83F1C882583A7BD00551E00 /* Resources */,
+				E83F1C872583A7B400551E00 /* Models */,
+				E83F1C842583A74500551E00 /* Supporting Files */,
 			);
 			path = "LogIn - LogOut";
+			sourceTree = "<group>";
+		};
+		E83F1C822583A30400551E00 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				E83F1C7225839F6600551E00 /* Main.storyboard */,
+				E83F1C7725839F6800551E00 /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		E83F1C842583A74500551E00 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E83F1C6C25839F6600551E00 /* AppDelegate.swift */,
+				E83F1C6E25839F6600551E00 /* SceneDelegate.swift */,
+				E83F1C7A25839F6800551E00 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E83F1C862583A77300551E00 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E83F1C7025839F6600551E00 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E83F1C872583A7B400551E00 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E83F1C882583A7BD00551E00 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E83F1C7525839F6800551E00 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,6 +329,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 48W3U8GYGS;
 				INFOPLIST_FILE = "LogIn - LogOut/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,7 +337,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Hager.LogIn---LogOut";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -308,6 +349,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 48W3U8GYGS;
 				INFOPLIST_FILE = "LogIn - LogOut/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +357,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Hager.LogIn---LogOut";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
