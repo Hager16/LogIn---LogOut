@@ -15,6 +15,7 @@
 		E83F1C7925839F6800551E00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E83F1C7725839F6800551E00 /* LaunchScreen.storyboard */; };
 		E83F1C9825890F2200551E00 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83F1C9725890F2200551E00 /* WelcomeViewController.swift */; };
 		E83F1C9B2589132500551E00 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83F1C9A2589132500551E00 /* User.swift */; };
+		E83F1C9E258961BC00551E00 /* AboutMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83F1C9D258961BC00551E00 /* AboutMeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		E83F1C7A25839F6800551E00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E83F1C9725890F2200551E00 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		E83F1C9A2589132500551E00 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		E83F1C9D258961BC00551E00 /* AboutMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 			children = (
 				E83F1C7025839F6600551E00 /* LoginViewController.swift */,
 				E83F1C9725890F2200551E00 /* WelcomeViewController.swift */,
+				E83F1C9D258961BC00551E00 /* AboutMeViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 				E83F1C9825890F2200551E00 /* WelcomeViewController.swift in Sources */,
 				E83F1C6D25839F6600551E00 /* AppDelegate.swift in Sources */,
 				E83F1C9B2589132500551E00 /* User.swift in Sources */,
+				E83F1C9E258961BC00551E00 /* AboutMeViewController.swift in Sources */,
 				E83F1C6F25839F6600551E00 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
